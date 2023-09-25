@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GifViewer-iOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GifViewer-iOS
+  pod 'FSPagerView'
+  pod 'lottie-ios'
+  pod 'SDWebImageWebPCoder'
+  pod 'SwiftyGif'
+  pod 'Gifu'
+  pod 'SDWebImage'
+  pod 'JellyGif'
+  pod 'Kingfisher'
+  pod 'Nuke'
+  #pod 'Nuke-WebP-Plugin'
+end

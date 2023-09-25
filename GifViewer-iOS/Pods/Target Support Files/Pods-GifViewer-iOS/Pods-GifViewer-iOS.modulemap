@@ -1,0 +1,6 @@
+framework module Pods_GifViewer_iOS {
+  umbrella header "Pods-GifViewer-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

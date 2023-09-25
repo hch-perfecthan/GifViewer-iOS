@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FSPagerView" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu" "${PODS_CONFIGURATION_BUILD_DIR}/JellyGif" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/Nuke" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) SD_WEBP=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FSPagerView/FSPagerView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Gifu/Gifu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JellyGif/JellyGif.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Nuke/Nuke.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyGif/SwiftyGif.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp/libwebp.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "Accelerate" -framework "CFNetwork" -framework "CoreGraphics" -framework "FSPagerView" -framework "Gifu" -framework "ImageIO" -framework "JellyGif" -framework "Kingfisher" -framework "Lottie" -framework "Nuke" -framework "QuartzCore" -framework "SDWebImage" -framework "SDWebImageWebPCoder" -framework "SwiftyGif" -framework "UIKit" -framework "libwebp"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/libwebp/src
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
